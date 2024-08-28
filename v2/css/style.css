@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores
+verde: #49a09d
+Lilás: #5f2c82
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    background-color: #5f2c82 ;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+section#tela {
+    position: absolute;
+    background-color: white;
+    height: 550px;
+    width: 260px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+    
+ }
+
+
+section#tela > div#imagem {
+    display: block;
+    background: url(../imagens/metal.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: left bottom;
+    
+    
+ }
+
+ section#tela > h1 {
+    text-align:center;
+    padding: 5px;
+ }
+ 
+ section#tela > p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 5px;
+ }
+
+ .campos > label {
+    display: none;
+ }
+
+
+
+div.campos {
+    background-color: #5f2c82;
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+div.campos > span {
+    color: white; 
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 1.3em;  
+}
+
+div.campos > input {
+    width: 86%;
+    padding-left: 2px;
+    padding-top: 11px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 0px;
+    transform: translateY(-1px);
+    background-color:#c3fcfb ;
+    
+}
+
+form > input#botao {
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 7px;
+    border: none; 
+    background-color: #49a09d; 
+    color: white;  
+        
+}
+
+form > a#esqsenha {
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    border: 1px solid #3a817f;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #49a09d;
+
+
+}     
+
+form > a#esqsenha > span {
+    
+    font-size: 1em;
+    
+}  
